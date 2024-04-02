@@ -2,7 +2,7 @@ Este es un proyecto [**React Native**](https://reactnative.dev), usando [`@react
 
 # 📄 Breve descripción de la aplicación
 
-Esta sencilla aplicación crea contraseñas más seguras. Genera contraseñas de hasta 20 caracteres con letras, números y símbolos.
+Esta sencilla aplicación crea contraseñas más seguras. Genera contraseñas de hasta 14 caracteres con letras, números y símbolos.
 Copia las contraseñas al portapapeles con un solo clic sin problemas. Enteramente desarrollado gracias a React Native 📱.
 
 # 📱 Capturas de pantalla de la aplicación
@@ -19,7 +19,9 @@ Copia las contraseñas al portapapeles con un solo clic sin problemas. Enteramen
 
 ## 🔵 Paso 1: Instalar
 
-Configurar el entorno y las dependencias
+Una vez configurado tu entorno, después de eso debes proceder como con cualquier proyecto javascript:
+
+- Ve a la carpeta raíz de tu proyecto y ejecuta:
 
 ```bash
 # using npm
@@ -28,6 +30,10 @@ npm install
 # OR using Yarn
 yarn install
 ```
+para terminar de configurar el entorno y las dependencias del proyecto.
+
+>**Nota**: En caso de que desees ejecutar la aplicación en el emulador, debes primero asegurarte de que se este ejecutando ya sea desde **Android Studio** o **Xcode**, este paso es necesario antes de continuar.
+
 
 ## 🔵 Paso 2: Iniciar el Metro Server
 
@@ -44,6 +50,8 @@ yarn start
 ```
 
 ## 🔵 Paso 3: Inicie su aplicaci&#243;n
+
+>**Nota**: Este paso es opcional, si antes en el paso 2 seleccionamos la plataforma en donde ejecutar la aplicacón ya sea **Android** o **iOS**, en realidad estaría ejecutando este mismo paso (Paso 3).
 
 Deja que Metro Bundler se ejecute en su _propia_ terminal. Abre un _nuevo_ terminal desde el _root_ de tu proyecto React Native. Ejecuta el siguiente comando para iniciar tu aplicación _Android_ o _iOS_:
 
