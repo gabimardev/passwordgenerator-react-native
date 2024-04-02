@@ -36,7 +36,7 @@ To start Metro, run the following command from the _root_ of your React Native p
 
 ```bash
 # using npm
-npm start
+npm run start
 
 # OR using Yarn
 yarn start
@@ -72,4 +72,4 @@ This is one way to run your app — you can also run it directly from within And
 
 ## 🚀 Congratulations! :tada:
 
-You've successfully run your React Native App. :partying_face:
+You've successfully run your Password Generator App. :partying_face:
